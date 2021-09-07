@@ -1,0 +1,697 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* style NAV */
+
+nav {
+    width: 100%;
+    height: 135px;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.nav-img {
+    background: transparent;
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.nav-img img {
+    width: 232px;
+    left: 110px;
+    top: 35%;
+    position: absolute;
+}
+
+.nav-links {
+    float: left;
+    width: 60%;
+    position: absolute;
+    left: 39%;
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    /* position: absolute; */
+    padding: 19px;
+    margin-top: 50px;
+}
+
+.nav-links ul a {
+    text-align: center;
+    text-decoration: none;
+    /* color: #847676; */
+    color: white;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.nav-links ul a::selection {
+    color: white;
+    text-shadow: 1px 1px 1px yellow;
+}
+
+.nav-links ul li:hover {
+    border-radius: 10px;
+    background-color: rgb(73, 72, 70);
+    border: 1px solid #847676;
+}
+
+li a:hover {
+    color: #847676;
+}
+
+
+/* section 1 */
+
+.Section1 {
+    /* margin-top: 300px; */
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    top: 0;
+}
+
+.Section1 img {
+    width: 100%;
+}
+
+.Section1 .paragraph {
+    z-index: 1;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    font-weight: bold;
+    text-align: center;
+    margin: 73px;
+    left: 190px;
+}
+
+.Section1 .paragraph p {
+    line-height: 1.86em;
+    font-size: 24px;
+    color: rgba(255, 255, 255, .92);
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 66px;
+    font-weight: 200;
+}
+
+.btn1 {
+    border-radius: 10px;
+    width: 32%;
+    background-color: #8e7754;
+    height: 65px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: #8e7754;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: #8e7754;
+}
+
+.btn2 {
+    border-radius: 10px;
+    width: 32%;
+    background-color: transparent;
+    height: 65px;
+    border: 1px white solid;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.btn3 {
+    width: 73px;
+    height: 161px;
+    background-color: transparent;
+    position: absolute;
+    top: 105%;
+    left: 47%;
+    border-radius: 64px;
+    cursor: pointer;
+}
+
+.point {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 25px;
+    animation-name: point-Action;
+    animation-duration: 3s;
+    animation-iteration-count: infinite
+}
+
+@keyframes point-Action {
+    0% {
+        /* top: 0; */
+        top: 0;
+        opacity: 1;
+    }
+    50% {
+        /* top: 50%; */
+        top: 50%;
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/* section 2  */
+
+.Section2 {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.Section2 .sec2-img {
+    float: left;
+    width: 45%;
+    margin: 86px;
+}
+
+.Section2 .sec2-img img {
+    width: 100%;
+}
+
+.Section2 .sec2-p {
+    float: left;
+    position: absolute;
+    left: 49%;
+    margin: 100px;
+}
+
+.Section2 .sec2-p p {
+    font-family: 'Alegreya', serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 37px;
+}
+
+h4 {
+    color: #303030;
+    font-size: 1.5rem;
+    line-height: 90px;
+    font-family: 'Alegreya', serif;
+}
+
+.Section2 ul {
+    line-height: 50px;
+    font-weight: 400;
+    list-style: none;
+    color: #686868;
+    position: relative;
+    left: 32px;
+}
+
+.Section2 ul li {
+    font-family: 'Alegreya', serif;
+}
+
+.Section2 ul li::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    border: 2px white solid;
+    border-radius: 50%;
+    left: -34px;
+}
+
+
+/* .Section2 ul li::after{
+    content:"";
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    border: 2px white solid;
+    border-radius: 50%;
+    left: -34px;
+} */
+
+.Section2 .li1::after {
+    content: url("icon1.png");
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    border: 2px white solid;
+    border-radius: 50%;
+    left: -34px;
+}
+
+.Section2 .li2::after {
+    content: url("icon2.png");
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    border: 2px white solid;
+    border-radius: 50%;
+    left: -34px;
+}
+
+.Section2 .li3::after {
+    content: url("icon3.png");
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    border: 2px white solid;
+    border-radius: 50%;
+    left: -34px;
+}
+
+.Section2 .li4::after {
+    content: url("icon4.png");
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    border: 2px white solid;
+    border-radius: 50%;
+    left: -34px;
+}
+
+
+/* End sec 2  */
+
+.fixed-div {
+    width: 47px;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    top: 300px;
+    border-radius: 12px;
+    /* اوفر فلو هيدن لاخفاء اللي بيظهر في الجنب  */
+    /* overflow: hidden; */
+    z-index: 1000;
+}
+
+.fixed-div #img1 {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.fixed-div #img2 {
+    position: absolute;
+    top: 39px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.demo1,
+.demo2 {
+    width: 147px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+    visibility: hidden;
+    /* display: none; */
+    /*مختفي*/
+}
+
+.demo1 {
+    left: -151px;
+    top: 8px;
+}
+
+.demo2 {
+    left: -151px;
+    top: 43px;
+}
+
+
+/* لما اعمل هوفر على الصوره اظهر الديف اللي بعدها في الكود مباشرة وهو ديف الديمو واحد  */
+
+#img1:hover+div {
+    /* display: block; */
+    visibility: visible;
+}
+
+
+/*  */
+
+#img2:hover+.demo2 {
+    /* display: block; */
+    visibility: visible;
+}
+
+.fixed-div2 {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    border: 1px solid;
+    z-index: 1000;
+}
+
+.fixed-div2 a {
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    top: 7px;
+}
+
+
+/* section 3 */
+
+.Section3 {
+    background-color: #f8f8f8;
+    overflow: hidden;
+    /* اوفر فلو عشان السيكشن اللي بعده ميلزقش فيه */
+}
+
+.Section3 .sec3-img {
+    float: left;
+    position: absolute;
+    left: 49%;
+    margin: 100px;
+}
+
+.Section3 .sec3-img img {
+    width: 100%;
+}
+
+.Section3 .sec3-p {
+    float: left;
+    width: 45%;
+    margin: 86px;
+}
+
+.Section3 .sec3-p p {
+    font-family: 'Alegreya', serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 37px;
+}
+
+
+/* End of section 3 */
+
+
+/* SEC4 */
+
+.Section4 {
+    overflow: hidden;
+}
+
+.Section4 .sec4-p {
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 37px;
+}
+
+.sec4-photos {
+    width: 100%;
+    margin: auto;
+}
+
+.sec4-photos .p1 {
+    width: 30%;
+    float: left;
+    margin: 17px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Alegreya', serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 37px;
+}
+
+.sec4-photos .p1 img {
+    width: 100%;
+}
+
+.p1-img {}
+
+.sec4-photos .p1 .p1-p {}
+
+
+/* End of sec 4 */
+
+
+/* SEC5 */
+
+.Section5 {
+    overflow: hidden;
+    background: rgb(248, 248, 248);
+}
+
+.Section5 .sec5-p {
+    float: left;
+    width: 43%;
+    margin-left: 57px;
+}
+
+iframe {
+    float: left;
+    width: 40%;
+    margin: 57px;
+}
+
+.Section5 ul {
+    line-height: 12px;
+    font-weight: 400;
+    list-style: none;
+    color: #686868;
+    position: relative;
+    left: 32px;
+}
+
+.Section5 ul li {
+    padding: 23px;
+    position: relative;
+}
+
+.Section5 ul li::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: rgb(142, 119, 84);
+    position: absolute;
+    border-radius: 50%;
+    left: -34px;
+    top: 16px;
+}
+
+.Section5 .li1::after {
+    content: url("outline_map_white_24dp.png");
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 50%;
+    left: -26px;
+    top: 27px;
+}
+
+.Section5 .li2::after {
+    content: url("outline_phone_white_24dp.png");
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 50%;
+    left: -25px;
+    top: 27px;
+}
+
+.Section5 .li3::after {
+    content: url("outline_headphones_white_24dp.png");
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 50%;
+    left: -25px;
+    top: 25px;
+}
+
+.li4::after {
+    content: url("outline_mail_white_24dp.png");
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 50%;
+    left: -25px;
+    top: 25px;
+}
+
+p:hover {
+    text-shadow: 1px 1px 1px gainsboro;
+}
+
+::selection {
+    text-shadow: 1px 1px 1px gray;
+}
+
+
+/* End of sec5 */
+
+
+/* sec6 */
+
+.Section6 {
+    width: 100%;
+    height: 600px;
+    background-color: #403d38;
+}
+
+.sec6-p1,
+.sec6-p2,
+.sec6-p3,
+.sec6-p4 {
+    width: 20%;
+    height: 90%;
+    float: left;
+    margin: 25px;
+}
+
+.Section6 .sec6-p1 {}
+
+.Section6 .sec6-p2 {}
+
+.Section6 .sec6-p3 {}
+
+.Section6 .sec6-p4 {
+    position: relative;
+}
+
+.sec6-p4 img {
+    width: 100%;
+    height: 33%;
+    position: absolute;
+    left: 15%;
+    background-size: cover;
+    background-position: center;
+    top: 210px;
+    opacity: 0.1;
+}
+
+.Section6 h4 {
+    color: white;
+    font-weight: 200;
+    position: relative;
+    left: 13%;
+}
+
+.Section6 hr {}
+
+.Section6 p {
+    color: #969696;
+}
+
+.Section6 ul {
+    line-height: 50px;
+    font-weight: 400;
+    list-style: none;
+    color: #686868;
+    position: relative;
+    left: 32px;
+}
+
+.Section6 ul li {
+    color: #969696;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 10px;
+}
+
+.Section6 ul li::before {
+    content: url(outline_navigate_next_black_24dp.png);
+    position: absolute;
+    left: -23px;
+    /* كنت حاطط هنا توب ولما لقيته باظ مسحته لقيت كل 
+   item  
+   اتحط قدامه سهم غير كده كان بيحط قدام اول واحد بس */
+    /* margin top مبيبوظهاش */
+    margin-top: 10px;
+}
+
+.Section6 a {
+    text-decoration: none;
+    color: #969696;
+}
+
+
+/* sec6 */
+
+
+/* sec 7 */
+
+.Section7 {
+    background-color: #353330;
+    position: relative;
+    width: 100%;
+    height: 258px;
+}
+
+.Section7 .cover {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 34%;
+}
+
+.Section7 .contact {
+    left: 40%;
+    position: absolute;
+    top: 64%;
+    text-align: center;
+}
+
+.material-icons {
+    cursor: pointer;
+    color: white;
+    padding: 8px;
+}
