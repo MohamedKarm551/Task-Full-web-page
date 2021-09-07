@@ -633,7 +633,7 @@ p:hover {
 }
 
 .Section6 ul {
-    line-height: 50px;
+    line-height: 22px;
     font-weight: 400;
     list-style: none;
     color: #686868;
@@ -655,7 +655,7 @@ p:hover {
    item  
    اتحط قدامه سهم غير كده كان بيحط قدام اول واحد بس */
     /* margin top مبيبوظهاش */
-    margin-top: 10px;
+    margin-top: -2px;
 }
 
 .Section6 a {
