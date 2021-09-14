@@ -434,7 +434,7 @@ h4 {
 /* End of section 3 */
 
 
-/* SEC4 */
+/* SEC4 by float */
 
 .Section4 {
     overflow: hidden;
@@ -477,8 +477,101 @@ p {
 
 .sec4-photos .p1 .p1-p {}
 
+*/
+/* End of sec 4  by float*/
 
-/* End of sec 4 */
+
+/* SEC 4 by flex */
+
+.Section4-2 {
+    width: 100%;
+    min-height: 500px;
+    background: #eee;
+}
+
+.Section4-2 .flex-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Section4-2-p {
+    text-align: center;
+    line-height: 50px;
+    margin: 20px;
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #686868;
+}
+
+.Section4-2-box {
+    width: 30%;
+}
+
+.Section4-2-box img {
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.Section4-2-box img:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+
+.Section4-2-box .Section4-2-box-p {
+    text-align: center;
+    line-height: 29px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+}
+
+.Section4-2-box .Section4-2-box-p h3 {
+    font-weight: 900;
+}
+
+.Section4-2-box .Section4-2-box-p p {
+    color: #686868;
+}
+
+*/
+/* hover and selction in sec4 */
+
+.Section4-2-p p:hover {
+    text-shadow: 1px 1px red;
+}
+
+.Section4-2-p h2:hover {
+    text-shadow: 1px 1px red;
+}
+
+.Section4-2-box .Section4-2-box-p :hover {
+    text-shadow: 1px 1px gold;
+}
+
+.Section4-2-box .Section4-2-box-p p::selection {
+    background-color: black;
+    color: yellow;
+}
+
+*/ .Section4-2-p h2::selection {
+    background-color: black;
+    color: red;
+}
+
+.Section4-2-p p::selection {
+    background-color: black;
+    color: red;
+}
+
+
+/* end hover and selction in sec4 */
+
+
+/* End of sec4 */
+
+
+/* end of SEC 4 by flex */
 
 
 /* SEC5 */
