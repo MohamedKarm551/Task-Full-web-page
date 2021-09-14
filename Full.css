@@ -554,13 +554,12 @@ p {
     color: yellow;
 }
 
-*/ .Section4-2-p h2::selection {
+.Section4-2-p h2::selection {
     background-color: black;
     color: red;
 }
 
 .Section4-2-p p::selection {
-    background-color: black;
     color: red;
 }
 
