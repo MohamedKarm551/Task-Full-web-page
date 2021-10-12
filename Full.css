@@ -151,6 +151,7 @@ h2 {
     position: absolute;
     top: 105%;
     left: 47%;
+    border: 1px solid #fff;
     border-radius: 64px;
     cursor: pointer;
 }
@@ -338,8 +339,8 @@ h4 {
 
 .demo1,
 .demo2 {
-    width: 147px;
-    height: 25px;
+    width: 146px;
+    height: 33px;
     background-color: white;
     position: absolute;
     border: none;
@@ -380,7 +381,7 @@ h4 {
 .fixed-div2 {
     width: 40px;
     height: 40px;
-    background-color: transparent;
+    background-color: #ffffffab;
     position: fixed;
     right: 10px;
     bottom: 10px;
@@ -787,4 +788,40 @@ p:hover {
     cursor: pointer;
     color: white;
     padding: 8px;
+}
+
+.contact i {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.contact i:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.contact i.face-book:hover {
+    color: #1877f2
+}
+
+.contact i.fa-google-plus-g:hover {
+    color: #d5453a
+}
+
+.contact i.fa-twitter:hover {
+    color: #29a4d9
+}
+
+.contact i.fa-linkedin:hover {
+    color: #1b88ae
+}
+
+.contact i.telegram:hover {
+    color: #32a6d8
 }
