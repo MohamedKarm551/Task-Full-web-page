@@ -118,6 +118,7 @@ h2 {
 
 .btn1 {
     border-radius: 10px;
+    border: none;
     width: 32%;
     background-color: #8e7754;
     height: 65px;
@@ -687,6 +688,7 @@ p:hover {
     width: 100%;
     height: 600px;
     background-color: #403d38;
+    padding: 20px;
 }
 
 .sec6-p1,
@@ -725,12 +727,15 @@ p:hover {
     font-weight: 200;
     position: relative;
     left: 13%;
+    font-size: 20px;
 }
 
 .Section6 hr {}
 
 .Section6 p {
     color: #969696;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .Section6 ul {
