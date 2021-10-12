@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600&display=swap');
 *,
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
@@ -221,7 +226,8 @@ h2 {
 
 h4 {
     color: #303030;
-    font-size: 1.5rem;
+    font-size: 3em;
+    font-weight: bold;
     line-height: 90px;
     font-family: 'Alegreya', serif;
 }
@@ -237,6 +243,7 @@ h4 {
 
 .Section2 ul li {
     font-family: 'Alegreya', serif;
+    font-size: 17px;
 }
 
 .Section2 ul li::before {
@@ -709,8 +716,8 @@ p:hover {
     left: 15%;
     background-size: cover;
     background-position: center;
-    top: 164px;
-    opacity: 0.1;
+    top: 117px;
+    opacity: 0.11;
 }
 
 .Section6 h4 {
@@ -742,7 +749,7 @@ p:hover {
 }
 
 .Section6 ul li::before {
-    content: url(outline_navigate_next_black_24dp.png);
+    content: url("outline_navigate_next_black_24dp.png");
     position: absolute;
     left: -23px;
     /* كنت حاطط هنا توب ولما لقيته باظ مسحته لقيت كل 
